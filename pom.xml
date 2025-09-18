@@ -52,6 +52,14 @@
             <scope>test</scope>
         </dependency>
 
+<!--        Grizzly server container -->
+        <dependency>
+            <groupId>org.glassfish.tyrus</groupId>
+            <artifactId>tyrus-container-grizzly-server</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+
+
     </dependencies>
 <build>
 

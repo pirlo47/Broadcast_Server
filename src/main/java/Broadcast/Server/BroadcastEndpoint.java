@@ -1,7 +1,9 @@
 package Broadcast.Server;
 
 import jakarta.websocket.*;
+import jakarta.websocket.server.ServerEndpoint;
 
+@ServerEndpoint("/chat")
 public class BroadcastEndpoint {
 
     @OnOpen
